@@ -18,8 +18,8 @@ R/LOCK ON! 01 星環世界 [好評発売中！](https://lnk.to/RLOCKON-01-CD)
 
 ## ▼△▼ 天色のアステリズム まとめ
 
-毎週金曜日午後6時頃更新！ [@imasml_webcomic](https://twitter.com/imasml_webcomic)
-
+毎週金曜日午後6時頃更新！ [@imasml_webcomic](https://twitter.com/imasml_webcomic)  
+こちらでは1話ごとのまとめを行っています。一気読みは[公式モーメント](https://twitter.com/i/events/1499683713688375297)でどうぞ！
 ### 連載中
 
 (2022/3/18 第3話開始!)
