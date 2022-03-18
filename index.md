@@ -29,4 +29,4 @@ R/LOCK ON! 01 星環世界 [好評発売中！](https://lnk.to/RLOCKON-01-CD)
 * [第1話「小さなスター」](https://twitter.com/i/events/1497237940854226944)
 * [第2話「なかよくなりたい」](https://twitter.com/i/events/1497238891728089092)
 
-## [アイドルマスター SKK辞書](https://github.com/project-brightblue/skk-dict-imas)
+## [アイドルマスター SKK辞書](/dict)
