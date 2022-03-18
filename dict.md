@@ -1,8 +1,7 @@
 ---
+title: アイドルマスター SKK辞書
 layout: mylayout.njk
 ---
-
-# アイドルマスター SKK辞書
 
 ![dict](/img/dict.png)
 
