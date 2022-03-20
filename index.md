@@ -4,9 +4,13 @@ layout: mylayout.njk
 
 ## 喜多日菜子 最新楽曲
 
-![](/img/FN-EMuRagAINM3L.jpg)  
+<div style="width: 100%; aspect-ratio: 16/9;">
+    <!-- YouTube iframeのwidthとheightを100%に -->
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/PtFQE0vlYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 イベント「ラビューダ♡トライアングル」  
-アイドルマスター シンデレラガールズ スターライトステージで3月20日15時〜開催！
+アイドルマスター シンデレラガールズ スターライトステージで現在開催中！
 
 <div style="width: 100%; aspect-ratio: 16/9;">
     <!-- YouTube iframeのwidthとheightを100%に -->
