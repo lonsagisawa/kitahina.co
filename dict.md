@@ -3,6 +3,8 @@ title: アイドルマスター SKK辞書
 layout: mylayout.njk
 ---
 
+# アイドルマスター SKK辞書
+
 ![dict](/img/dict.png)
 
 アイドルマスターシリーズに関する語句を収録したSKK辞書です。
