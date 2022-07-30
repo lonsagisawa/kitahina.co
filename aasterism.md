@@ -16,8 +16,8 @@ layout: mylayout.njk
 ### ▲▽▲ 連載中
 
 #### 第6話「きいてほしいの」  
-[6-1](https://twitter.com/imasml_webcomic/status/1540258431524806656)／[6-2](https://twitter.com/imasml_webcomic/status/1542812272640540672)／[6-3](https://twitter.com/imasml_webcomic/status/1545331860007317505)／[6-4](https://twitter.com/imasml_webcomic/status/1547868571988115456)／[6-5](https://twitter.com/imasml_webcomic/status/1550405294429048832)
-
+[6-1](https://twitter.com/imasml_webcomic/status/1540258431524806656)／[6-2](https://twitter.com/imasml_webcomic/status/1542812272640540672)／[6-3](https://twitter.com/imasml_webcomic/status/1545331860007317505)／[6-4](https://twitter.com/imasml_webcomic/status/1547868571988115456)／[6-5](https://twitter.com/imasml_webcomic/status/1550405294429048832)／
+[6-6](https://twitter.com/imasml_webcomic/status/1552942004576870400)
 ### 完結済
 
 #### 第1話「小さなスター」
