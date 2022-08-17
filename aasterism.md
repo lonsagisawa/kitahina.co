@@ -15,9 +15,8 @@ layout: mylayout.njk
 
 ### ▲▽▲ 連載中
 
-#### 第6話「きいてほしいの」  
-[6-1](https://twitter.com/imasml_webcomic/status/1540258431524806656)／[6-2](https://twitter.com/imasml_webcomic/status/1542812272640540672)／[6-3](https://twitter.com/imasml_webcomic/status/1545331860007317505)／[6-4](https://twitter.com/imasml_webcomic/status/1547868571988115456)／[6-5](https://twitter.com/imasml_webcomic/status/1550405294429048832)／
-[6-6](https://twitter.com/imasml_webcomic/status/1552942004576870400)
+第7話 2022年8月19日連載開始！
+
 ### 完結済
 
 #### 第1話「小さなスター」
@@ -44,3 +43,8 @@ layout: mylayout.njk
 
 [▲▽▲ 公式モーメント](https://twitter.com/i/events/1534851941918208000)  
 [5-1](https://twitter.com/imasml_webcomic/status/1522501423954468864)／[5-2](https://twitter.com/imasml_webcomic/status/1525038144860540928)／[5-3](https://twitter.com/imasml_webcomic/status/1527582563400880128)／[5-4](https://twitter.com/imasml_webcomic/status/1530111575079665666)／[5-5](https://twitter.com/imasml_webcomic/status/1532648284593872896)／[5-6](https://twitter.com/imasml_webcomic/status/1535185004669587457)
+
+#### 第6話「きいてほしいの」  
+
+[▲▽▲ 公式モーメント](https://twitter.com/i/events/1540274655260717056)  
+[6-1](https://twitter.com/imasml_webcomic/status/1540258431524806656)／[6-2](https://twitter.com/imasml_webcomic/status/1542812272640540672)／[6-3](https://twitter.com/imasml_webcomic/status/1545331860007317505)／[6-4](https://twitter.com/imasml_webcomic/status/1547868571988115456)／[6-5](https://twitter.com/imasml_webcomic/status/1550405294429048832)／[6-6](https://twitter.com/imasml_webcomic/status/1552942004576870400)／[6-7](https://twitter.com/imasml_webcomic/status/1555478732319621122)
