@@ -15,7 +15,8 @@ layout: mylayout.njk
 
 ### ▲▽▲ 連載中
 
-第7話 2022年8月19日連載開始！
+#### 第7話「ウキウキなお仕事」
+[7-1](https://twitter.com/imasml_webcomic/status/1560552156620419072)
 
 ### 完結済
 
