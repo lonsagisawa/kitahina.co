@@ -16,8 +16,8 @@ layout: mylayout.njk
     <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/PtFQE0vlYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**ラビューダ♡トライアングル**  
-アイドルマスター シンデレラガールズ スターライトステージで配信中！
+THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER
+R/LOCK ON! 08 **ラビューダ♡トライアングル** 2022年9月21日発売予定！(動画はゲーム版です)
 
 <div style="width: 100%; aspect-ratio: 16/9;">
     <!-- YouTube iframeのwidthとheightを100%に -->
