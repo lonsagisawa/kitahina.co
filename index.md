@@ -3,21 +3,17 @@ title: kitahina.co
 layout: mylayout.njk
 ---
 
-## Stage for Cinderella
-
-![Stage for Cinderella 喜多日菜子はグループAへ！](/img/s4c.webp)
-
-[Stage for Cinderella](https://sfcinderella2022.idolmaster-official.jp/) 予選グループAは投票期間が終了し、結果発表がまもなく行われます。喜多日菜子にたくさんのご投票をいただきありがとうございました。
-
 ## 喜多日菜子 最新楽曲
 
 <div style="width: 100%; aspect-ratio: 16/9;">
     <!-- YouTube iframeのwidthとheightを100%に -->
-    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/PtFQE0vlYFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/DOOGHG3EeZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+
+
 THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER
-R/LOCK ON! 08 **ラビューダ♡トライアングル** 2022年9月21日発売予定！(動画はゲーム版です)
+R/LOCK ON! 08 **ラビューダ♡トライアングル** 2022年9月21日発売予定！
 
 <div style="width: 100%; aspect-ratio: 16/9;">
     <!-- YouTube iframeのwidthとheightを100%に -->
