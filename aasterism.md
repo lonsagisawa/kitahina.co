@@ -16,7 +16,7 @@ layout: mylayout.njk
 ### ▲▽▲ 連載中
 
 #### 第7話「ウキウキなお仕事」
-[7-1](https://twitter.com/imasml_webcomic/status/1560552156620419072)／[7-2](https://twitter.com/imasml_webcomic/status/1563088864490782721)／[7-3](https://twitter.com/imasml_webcomic/status/1565625585094692864)／[7-4](https://twitter.com/imasml_webcomic/status/1568162298644103170)
+[7-1](https://twitter.com/imasml_webcomic/status/1560552156620419072)／[7-2](https://twitter.com/imasml_webcomic/status/1563088864490782721)／[7-3](https://twitter.com/imasml_webcomic/status/1565625585094692864)／[7-4](https://twitter.com/imasml_webcomic/status/1569117449869754369)
 
 ### 完結済
 
