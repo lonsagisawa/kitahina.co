@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@fontsource/inter": "^4.5.11",
-    "@fontsource/m-plus-1": "^4.5.9"
+    "@11ty/eleventy": "^1.0.2",
+    "@fontsource/inter": "^4.5.12",
+    "@fontsource/m-plus-1": "^4.5.10"
   },
   "dependencies": {
     "@exampledev/new.css": "^1.1.3"
