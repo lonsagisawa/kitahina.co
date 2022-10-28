@@ -15,7 +15,9 @@ layout: mylayout.njk
 
 ### ▲▽▲ 連載中
 
-10月28日から、第8話が連載開始！
+#### 第8話「Take Me Home」
+
+[8-1](https://twitter.com/imasml_webcomic/status/1585919313537630209)
 
 ### 完結済
 
