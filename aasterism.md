@@ -17,7 +17,7 @@ layout: mylayout.njk
 
 #### 第8話「Take Me Home」
 
-[8-1](https://twitter.com/imasml_webcomic/status/1585919313537630209)
+[8-1](https://twitter.com/imasml_webcomic/status/1585919313537630209)／[8-2](https://twitter.com/imasml_webcomic/status/1588456025946038272)
 
 ### 完結済
 
