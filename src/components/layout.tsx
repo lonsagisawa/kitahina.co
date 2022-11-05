@@ -81,5 +81,3 @@ const Layout = ({ pageTitle, children }: LayoutProps) => {
 }
 
 export default Layout
-
-export const Head = () => <title>{ pageTitle }</title>
