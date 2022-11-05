@@ -12,6 +12,12 @@ type LayoutProps = {
 
 const Global = styled.div({
     fontFamily: '"LINESeedJP", sans-serif',
+    backgroundColor: '#fefefe',
+    color: '#111111',
+    '@media (prefers-color-scheme: dark)': {
+        backgroundColor: '#111111',
+        color: '#fefefe',
+    },
     lineHeight: 1.6,
     strong: {
         fontWeight: 700,
@@ -38,6 +44,12 @@ const Global = styled.div({
         fontWeight: 700,
     },
     blockquote: {
+        color: '#676767',
+        backgroundColor: '#eeeeee',
+        '@media (prefers-color-scheme: dark)': {
+            color: '#cccccc',
+            backgroundColor: '#222222',
+        },
         padding: '1rem',
         borderLeftStyle: 'solid',
         borderLeftColor: '#f4d059',
