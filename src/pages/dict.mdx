@@ -1,11 +1,14 @@
 ---
-title: アイドルマスター SKK辞書
-layout: mylayout.njk
+title: 'アイドルマスターシリーズ SKK辞書'
 ---
 
-# アイドルマスター SKK辞書
+import Layout from '../components/layout'
+import Helmet from '../components/helmet'
 
-![dict](/img/dict.png)
+<Helmet pageTitle={ props.pageContext.frontmatter.title } />
+<Layout pageTitle={ props.pageContext.frontmatter.title }>
+
+![](../images/dict.png)
 
 アイドルマスターシリーズに関する語句を収録したSKK辞書です。
 
@@ -27,6 +30,13 @@ layout: mylayout.njk
 ```shell
 git clone https://github.com/project-brightblue/skk-dict-imas.git
 ```
+
+## 統合辞書 辞書一覧
+
+|ファイル名                 |辞書の内容|文字コード|
+|---------------------------|----------|----------|
+|SKK-JISYO.imas.unified.utf8|統合辞書  |UTF-8     |
+|SKK-JISYO.imas.unified.euc |統合辞書  |EUC-JP    |
 
 ## シンデレラガールズ 辞書一覧
 
@@ -73,7 +83,7 @@ git clone https://github.com/project-brightblue/skk-dict-imas.git
 
 ### [AquaSKK](https://github.com/codefirst/aquaskk)
 
-<img width="592" alt="Screenshot 2020-12-19 23 55 25" src="https://user-images.githubusercontent.com/5173607/102692329-885f8680-420a-11eb-90ce-7f541483c1a3.png">
+![AquaSKKでの設定イメージ](../images/aquaskk.png)
 
 1. 設定画面を開き、辞書タブを開きます。
 2. 画面左下の追加ボタンを押します。
@@ -101,3 +111,5 @@ ibus-skkの設定画面を開き、辞書タブ内でダウンロードした辞
 * [Nobuyuki Sasaki 様](https://github.com/nathancorvussolis)
 
 SKK実装の仕様について情報提供を頂きました。
+
+</Layout>
