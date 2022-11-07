@@ -3,7 +3,7 @@ import Header from './header'
 import Footer from './footer'
 import 'the-new-css-reset'
 import styled from 'styled-components'
-import '../line_seed_fonts/LINESeedJP.css'
+import '@fontsource/montserrat/variable.css'
 
 type LayoutProps = {
     pageTitle: string,
@@ -11,7 +11,7 @@ type LayoutProps = {
 }
 
 const Global = styled.div`
-    font-family: 'LINESeedJP', sans-serif;
+    font-family: 'MontserratVariable', 'Hiragino Sans', 'Yu Gothic UI', sans-serif;
     background-color: #fefefe;
     color: #111;
     @media (prefers-color-scheme: dark) {
