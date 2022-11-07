@@ -1,18 +1,18 @@
 import * as React from 'react'
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 
-const Container = styled.footer({
-    maxWidth: '40rem',
-    marginRight: 'auto',
-    marginLeft: 'auto',
-    paddingLeft: '1rem',
-    paddingRight: '1rem',
-    minHeight: '8rem',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    fontSize: '0.8rem',
-})
+const Container = styled.footer`
+    max-width: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+`
 
 const Footer = () => {
     return (

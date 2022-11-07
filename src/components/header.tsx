@@ -1,31 +1,30 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import styled from '@emotion/styled'
-import { NONAME } from 'dns'
+import styled from 'styled-components'
 
 type HeaderProps = {
     pageTitle: string,
 }
 
-const Container = styled.header({
-    maxWidth: '40rem',
-    marginRight: 'auto',
-    marginLeft: 'auto',
-    paddingLeft: '1rem',
-    paddingRight: '1rem',
-    minHeight: '12rem',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-})
+const Container = styled.header`
+    max-width: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`
 
-const Title = styled.h1({
-    fontSize: '2rem',
-    fontWeight: '900 !important',
-    a: {
-        textDecoration: 'none !important',
-    },
-})
+const Title = styled.h1`
+    font-size: 2rem;
+    font-weight: 900 !important;
+    a {
+        text-decoration: none !important;
+    }
+`
 
 const Header = ({ pageTitle }: HeaderProps) => {
     return (
