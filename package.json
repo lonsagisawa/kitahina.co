@@ -19,10 +19,12 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mdx-js/react": "^2.1.5",
+    "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.24.7",
     "gatsby-plugin-emotion": "^7.24.0",
     "gatsby-plugin-mdx": "^4.3.0",
     "gatsby-plugin-sharp": "^4.24.0",
+    "gatsby-plugin-styled-components": "^5.24.0",
     "gatsby-remark-images": "^6.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
@@ -30,6 +32,7 @@
     "react-dom": "^18.1.0",
     "react-lite-youtube-embed": "^2.3.52",
     "remark-gfm": "^1.0.0",
+    "styled-components": "^5.3.6",
     "the-new-css-reset": "^1.7.3"
   },
   "devDependencies": {
