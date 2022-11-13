@@ -26,8 +26,8 @@
     "gatsby-remark-images": "^6.24.0",
     "gatsby-source-filesystem": "^4.24.0",
     "gatsby-transformer-sharp": "^4.24.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-lite-youtube-embed": "^2.3.52",
     "remark-gfm": "^1.0.0",
     "styled-components": "^5.3.6",
@@ -38,6 +38,6 @@
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@types/styled-components": "^5.1.26",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.4"
   }
 }
