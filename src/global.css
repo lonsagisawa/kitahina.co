@@ -1,0 +1,70 @@
+body {
+  font-family: "MontserratVariable", "Hiragino Sans", "BIZ UDPGothic",
+    sans-serif;
+  background-color: #fefefe;
+  color: #111;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111;
+    color: #fefefe;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: underline;
+  transition: color 100ms ease-out;
+}
+a:hover {
+  color: #f4d059;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+blockquote {
+  color: #676767;
+  background-color: #eee;
+  padding: 1rem;
+  border-left: solid 1rem #f4d059;
+}
+
+@media (prefers-color-scheme: dark) {
+  blockquote {
+    color: #ccc;
+    background-color: #222;
+  }
+}
+
+code {
+  padding: 1rem;
+  font-family: "Menlo", "Consolas", monospace;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+thead {
+  font-weight: 700;
+}
