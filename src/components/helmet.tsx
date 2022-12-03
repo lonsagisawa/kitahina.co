@@ -1,15 +1,15 @@
-import * as React from 'react'
+import * as React from "react"
 
 type HelmetProps = {
-    pageTitle: string,
+  pageTitle: string
 }
 
-const Helmet = ({ pageTitle }: HelmetProps) => {
-    return (
-        <>
-            <title>{ pageTitle }</title>
-        </>
-    )
+const Helmet = ({ pageTitle }: HelmetProps): JSX.Element => {
+  return (
+    <>
+      <title>{pageTitle}</title>
+    </>
+  )
 }
 
 export default Helmet
