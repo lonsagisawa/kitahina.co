@@ -8,7 +8,7 @@ import "../global.css"
 
 type LayoutProps = {
   pageTitle: string
-  children: any
+  children?: React.ReactNode
 }
 
 const Container = styled.main`
@@ -21,7 +21,7 @@ const Container = styled.main`
   }
 `
 
-const Layout = ({ pageTitle, children }: LayoutProps) => {
+const Layout = ({ pageTitle, children }: LayoutProps): JSX.Element => {
   return (
     <>
       <Header pageTitle={pageTitle} />

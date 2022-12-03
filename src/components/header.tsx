@@ -26,7 +26,7 @@ const Title = styled.h1`
   }
 `
 
-const Header = ({ pageTitle }: HeaderProps) => {
+const Header = ({ pageTitle }: HeaderProps): JSX.Element => {
   return (
     <Container>
       <Title>

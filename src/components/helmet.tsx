@@ -4,7 +4,7 @@ type HelmetProps = {
   pageTitle: string
 }
 
-const Helmet = ({ pageTitle }: HelmetProps) => {
+const Helmet = ({ pageTitle }: HelmetProps): JSX.Element => {
   return (
     <>
       <title>{pageTitle}</title>

@@ -14,7 +14,7 @@ const Container = styled.footer`
   font-size: 0.8rem;
 `
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   return (
     <Container>
       このページはバンダイナムコエンターテインメント様、Cygames様、バンダイナムコスタジオ様とはいっさい関係のないファンサイトです
