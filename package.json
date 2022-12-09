@@ -16,7 +16,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@fontsource/montserrat": "^4.5.13",
     "@mdx-js/react": "^2.1.5",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^5.2.0",

@@ -3,8 +3,11 @@ import Header from "./header"
 import Footer from "./footer"
 import "the-new-css-reset"
 import styled from "styled-components"
-import "@fontsource/montserrat/variable.css"
 import "../global.css"
+import "../lineseed/100.css"
+import "../lineseed/300.css"
+import "../lineseed/700.css"
+import "../lineseed/900.css"
 
 type LayoutProps = {
   pageTitle: string
