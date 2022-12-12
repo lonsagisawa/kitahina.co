@@ -1,0 +1,49 @@
+---
+export interface Props {
+  title: string
+}
+
+const { frontmatter } = Astro.props
+import "the-new-css-reset"
+import "../global.css"
+import Header from "../components/Header.astro"
+import Footer from "../components/Footer.astro"
+import "../lineseed/100.css"
+import "../lineseed/300.css"
+import "../lineseed/700.css"
+import "../lineseed/900.css"
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>
+      {
+        frontmatter.title == null
+          ? "kitahina.co"
+          : `${frontmatter.title} | kitahina.co`
+      }
+    </title>
+  </head>
+  <body>
+    <Header title={frontmatter.title} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+    <style>
+      main {
+        max-width: 40em;
+        padding: 0 1rem;
+        margin: 0 auto;
+        p {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+        }
+      }
+    </style>
+  </body>
+</html>

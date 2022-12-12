@@ -1,0 +1,33 @@
+---
+const { title } = Astro.props
+---
+
+<header>
+  <h1>
+    <a href="/" rel="prefetch">kitahina.co</a>
+  </h1>
+  <p>{title}</p>
+</header>
+<style>
+  header {
+    max-width: 40rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  header h1 a {
+    text-decoration: none;
+  }
+  header p {
+    margin: 0;
+  }
+</style>

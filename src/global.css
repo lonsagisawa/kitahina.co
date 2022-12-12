@@ -12,6 +12,10 @@ body {
   }
 }
 
+p {
+  margin: 1rem 0;
+}
+
 strong {
   font-weight: 700;
 }
@@ -26,11 +30,11 @@ a:hover {
 
 h1 {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 900;
 }
 h2 {
   font-size: 1.75rem;
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
@@ -54,8 +58,11 @@ blockquote {
 }
 
 code {
-  padding: 1rem;
   font-family: "Menlo", "Consolas", monospace;
+  font-size: 0.9rem;
+}
+pre {
+  padding: 1rem;
 }
 
 table {
