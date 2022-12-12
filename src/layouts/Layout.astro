@@ -20,7 +20,13 @@ import "../lineseed/900.css"
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{frontmatter.title}</title>
+    <title>
+      {
+        frontmatter.title == null
+          ? "kitahina.co"
+          : `${frontmatter.title} | kitahina.co`
+      }
+    </title>
   </head>
   <body>
     <Header title={frontmatter.title} />
