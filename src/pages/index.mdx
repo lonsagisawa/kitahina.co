@@ -1,30 +1,40 @@
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Helmet from "../components/helmet"
-import LiteYouTubeEmbed from "react-lite-youtube-embed"
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"
-
-<Helmet pageTitle='kitahina.co' />
-<Layout>
+---
+layout: ../layouts/Layout.astro
+---
 
 喜多日菜子を非公式に応援するファンサイトです。
 
 ## おしらせ
 
-2022 年 12 月 7 日より、Spotify / Apple Music / YouTube Music 等、各種音楽配信プラットフォームで「星環世界」「ラビューダ ♡ トライアングル」のゲームバージョンがお楽しみいただけるようになりました。ゲームをプレイしていない方でもお試しいただけます。
+<iframe
+  style="border-radius:12px"
+  src="https://open.spotify.com/embed/artist/2vt14z5D4k4C2dn909q2mk?utm_source=generator"
+  width="100%"
+  height="180"
+  frameBorder="0"
+  allowfullscreen=""
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy"
+></iframe>
 
-<LiteYouTubeEmbed id="DOOGHG3EeZU" />
+2022年12月7日より、Spotify / Apple Music / YouTube Music 等、各種音楽配信プラットフォームで「星環世界」「ラビューダ♡トライアングル」のゲームバージョンがお楽しみいただけるようになりました。ゲームをプレイしていない方も、是非お試しください。
+
+<iframe
+  width="100%"
+  src="https://www.youtube-nocookie.com/embed/DOOGHG3EeZU"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  style="aspect-ratio: 16/9; border-radius: 1rem;"
+></iframe>
 
 THE IDOLM@STER CINDERELLA GIRLS STARLIGHT MASTER R/LOCK ON! 08  
-**ラビューダ ♡ トライアングル** 好評発売中！  
-(CD は音源の不備に伴う交換に伴い、在庫がない場合があります)  
-[CD を買う！](https://imas.lnk.to/RLOCKON-08-CD)・[iTunes Store で買う！](https://music.apple.com/jp/album/%E3%83%A9%E3%83%93%E3%83%A5%E3%83%BC%E3%83%80-%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB-m-ster-version/1643060573?i=1643060574)・[OTOTOY で買う！](https://ototoy.jp/_/default/p/1357093)・その他各種配信プラットフォームで販売中！
-
-{/* <Link to='/discography'>今までの楽曲はこちら！</Link> */}
+**ラビューダ♡トライアングル** 好評発売中！  
+(CDは音源の不備に伴う交換に伴い、在庫がない場合があります)  
+[CDを買う！](https://imas.lnk.to/RLOCKON-08-CD)・[iTunes Storeで買う！](https://music.apple.com/jp/album/%E3%83%A9%E3%83%93%E3%83%A5%E3%83%BC%E3%83%80-%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%82%B0%E3%83%AB-m-ster-version/1643060573?i=1643060574)・[OTOTOYで買う！](https://ototoy.jp/_/default/p/1357093)・その他各種配信プラットフォームで販売中！
 
 ## おしながき
 
-- <Link to="/aasterism">天色のアステリズム 非公式まとめ</Link>
-- <Link to="/dict">アイドルマスターシリーズ SKK辞書</Link>
-
-</Layout>
+- <a href="/aasterism" rel="prefetch">天色のアステリズム 非公式まとめ</a>
+- <a href="/dict" rel="prefetch">アイドルマスターシリーズ SKK辞書</a>

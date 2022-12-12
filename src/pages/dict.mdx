@@ -1,16 +1,19 @@
 ---
 title: "アイドルマスターシリーズ SKK辞書"
+layout: "../layouts/Layout.astro"
 ---
 
-import Layout from "../components/layout"
-import Helmet from "../components/helmet"
+import { Picture } from "@astrojs/image/components"
 
-<Helmet pageTitle={ props.pageContext.frontmatter.title } />
-<Layout pageTitle={ props.pageContext.frontmatter.title }>
+<Picture
+  src={import("../images/dict.png")}
+  alt=""
+  widths={[608, 1216]}
+  sizes="(max-width: 608px) 100vw, 608px"
+  formats={["avif", "webp"]}
+/>
 
-![](../images/dict.png)
-
-アイドルマスターシリーズに関する語句を収録した SKK 辞書です。
+アイドルマスターシリーズに関する語句を収録したSKK辞書です。
 
 ## リポジトリ
 
@@ -18,14 +21,14 @@ import Helmet from "../components/helmet"
 
 ## おことわり
 
-- いくつかの辞書は EUC 版と UTF-8 版に分かれています。字体の違いなどの都合により UTF-8 版のほうがより実際の表記と近いものになっているため、可能な限り UTF-8 版の辞書を使ってください。
-- 辞書の編集を行う際は、/src フォルダー内にある辞書を編集して、その後に build.sh を実行してください。(UNIX 系の環境と skktools が必要です。Windows をお使いの方は WSL をお使いください)
+- いくつかの辞書はEUC版とUTF-8版に分かれています。字体の違いなどの都合によりUTF-8版のほうがより実際の表記と近いものになっているため、可能な限りUTF-8版の辞書を使ってください。
+- 辞書の編集を行う際は、/srcフォルダー内にある辞書を編集して、その後にbuild.shを実行してください。(UNIX系の環境とskktoolsが必要です。Windowsをお使いの方はWSLをお使いください)
 
 ## ダウンロード
 
 [master.zip](https://github.com/project-brightblue/skk-dict-imas/archive/master.zip)
 
-もしくは git がインストールされている環境で
+もしくはgitがインストールされている環境で
 
 ```shell
 git clone https://github.com/project-brightblue/skk-dict-imas.git
@@ -72,34 +75,40 @@ git clone https://github.com/project-brightblue/skk-dict-imas.git
 
 ## つかいかた
 
-### [SKK 日本語入力 FEP](http://coexe.web.fc2.com/programs.html)
+### [SKK日本語入力FEP](http://coexe.web.fc2.com/programs.html)
 
-付属の SKKFEP.bat を実行してください。もしくは、
+付属のSKKFEP.bat を実行してください。もしくは、
 
 ```
 %APPDATA%\SKKFEP\DICTS
 ```
 
-の下に辞書をコピーしてください。声優辞書を使用する場合は UTF-8 版(SKK-JISYO.imascgss.actors.utf8)をコピーしてください。
+の下に辞書をコピーしてください。UTF-8版の辞書が使えます。
 
 ### [AquaSKK](https://github.com/codefirst/aquaskk)
 
-![AquaSKKでの設定イメージ](../images/aquaskk.png)
+<Picture
+  src={import("../images/aquaskk.png")}
+  alt="AquaSKKでの設定イメージ"
+  widths={[608, 1216]}
+  sizes="(max-width: 608px) 100vw, 608px"
+  formats={["avif", "webp"]}
+/>
 
 1. 設定画面を開き、辞書タブを開きます。
 2. 画面左下の追加ボタンを押します。
 3. 辞書の種類を`SKK 辞書(UTF-8)`にしてください。
-4. git clone した、もしくはダウンロードしてきた辞書ファイルを選択してください。
+4. git cloneした、もしくはダウンロードしてきた辞書ファイルを選択してください。
 
 ### ibus-skk
 
-ibus-skk の設定画面を開き、辞書タブ内でダウンロードした辞書をシステム辞書として追加すると辞書が使用できるようになります。
+ibus-skkの設定画面を開き、辞書タブ内でダウンロードした辞書をシステム辞書として追加すると辞書が使用できるようになります。
 
 ## 主な派生物
 
 ### [skk-jisyo-imasparql](https://github.com/banjun/skk-jisyo-imasparql)
 
-オープンデータを基にアイマス SKK 辞書の自動生成を試みるプロジェクトです。この辞書のフォーマットを参考にしたそうです。  
+オープンデータを基にアイマスSKK辞書の自動生成を試みるプロジェクトです。この辞書のフォーマットを参考にしたそうです。  
 **ユニット名の辞書が必要な方はこちらの辞書に含まれています**ので、利用をご検討ください。
 
 ## 謝辞
@@ -112,5 +121,3 @@ ibus-skk の設定画面を開き、辞書タブ内でダウンロードした�
 - [Nobuyuki Sasaki 様](https://github.com/nathancorvussolis)
 
 SKK 実装の仕様について情報提供を頂きました。
-
-</Layout>
