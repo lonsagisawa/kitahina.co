@@ -1,11 +1,9 @@
 ---
+import "../../node_modules/lite-youtube-embed/src/lite-yt-embed.css"
 const { id } = Astro.props
 ---
 
-<link
-  rel="stylesheet"
-  href="../../node_modules/lite-youtube-embed/src/lite-yt-embed.css"
-/>
-<script src="../../node_modules/lite-youtube-embed/src/lite-yt-embed.js"
-></script>
+<script>
+  import "lite-youtube-embed/src/lite-yt-embed.js"
+</script>
 <lite-youtube videoid={id}></lite-youtube>
