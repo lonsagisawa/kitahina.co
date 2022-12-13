@@ -1,23 +1,27 @@
-import { defineConfig } from "astro/config";
+import { defineConfig } from "astro/config"
 
 // https://astro.build/config
-import mdx from "@astrojs/mdx";
+import mdx from "@astrojs/mdx"
 
 // https://astro.build/config
-import image from "@astrojs/image";
+import image from "@astrojs/image"
 
 // https://astro.build/config
-import prefetch from "@astrojs/prefetch";
+import prefetch from "@astrojs/prefetch"
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [mdx(), image({
-    serviceEntryPoint: "@astrojs/image/sharp"
-  }), prefetch()],
+  integrations: [
+    mdx(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    prefetch(),
+  ],
   markdown: {
     shikiConfig: {
       theme: "nord",
-      wrap: true
-    }
-  }
-});
+      wrap: true,
+    },
+  },
+})
