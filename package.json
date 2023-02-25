@@ -11,12 +11,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/image": "^0.12.1",
-    "@astrojs/mdx": "^0.14.0",
-    "@astrojs/prefetch": "^0.1.1",
-    "astro": "^1.8.0",
+    "@astrojs/image": "^0.15.1",
+    "@astrojs/mdx": "^0.17.2",
+    "@astrojs/prefetch": "^0.1.2",
+    "astro": "^2.0.15",
     "lite-youtube-embed": "^0.2.0",
     "sharp": "^0.31.3",
-    "the-new-css-reset": "^1.8.2"
+    "the-new-css-reset": "^1.8.4"
   }
 }
