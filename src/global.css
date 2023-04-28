@@ -74,3 +74,8 @@ table {
 thead {
   font-weight: 700;
 }
+
+rp,
+rt {
+  font-size: 0.8rem;
+}
